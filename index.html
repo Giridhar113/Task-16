@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>HTML TASK: Event Registration Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            font-family: Georgia, serif;
+            margin: 40px;
+            background: #f5f5f5;
+        }
+
+        /* Title */
+
+        .main-title {
+            font-size: 40px;
+            color: #1f5d9b;
+        }
+
+        .main-title span {
+            color: #7a3b1a;
+        }
+
+        hr {
+            margin: 20px 0;
+            border: 0;
+            border-top: 1px solid #ccc;
+        }
+
+        /* List */
+
+        ul {
+            margin-left: 30px;
+            font-size: 18px;
+        }
+
+        /* Table */
+
+        table {
+            border-collapse: collapse;
+            width: 700px;
+            margin-top: 10px;
+        }
+
+        th,
+        td {
+            border: 1px solid #b5b5b5;
+            padding: 10px;
+            text-align: left;
+        }
+
+        .table-title {
+            text-align: center;
+            background: #c7d5e7;
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        .header-row {
+            background: #e6edf5;
+            font-weight: bold;
+        }
+
+        /* Layout */
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+
+        .left {
+            width: 55%;
+        }
+
+        .right {
+            width: 40%;
+            display: flex;
+            justify-content: center;
+        }
+
+        /* Form */
+
+        .form-box {
+            border: 1px solid #ccc;
+            padding: 20px;
+            background: white;
+            width: 320px;
+        }
+
+        .form-box h3 {
+            text-align: center;
+            margin-bottom: 15px;
+        }
+
+        .form-row {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        .form-row label {
+            width: 120px;
+        }
+
+        .form-row input,
+        .form-row select {
+            flex: 1;
+            padding: 6px;
+        }
+
+        button {
+            margin-top: 10px;
+            padding: 8px 20px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <h1 class="main-title">
+        HTML TASK: <span>Event Registration Page</span>
+    </h1>
+
+    <hr>
+
+    <p>Create a simple webpage for an event registration using lists, tables, and forms. Perfect for new coders!</p>
+
+    <h2>1. Create an Event Highlights List</h2>
+    <hr>
+
+    <p>Use an unordered list to list some event highlights.</p>
+
+    <h3>Event Highlights</h3>
+
+    <ul>
+        <li>Guest Speakers</li>
+        <li>Workshops</li>
+        <li>Networking</li>
+    </ul>
+
+
+    <h2>2. Create an Event Schedule Table</h2>
+    <hr>
+
+    <p>Make a table to show the event schedule.</p>
+
+    <table>
+
+        <tr>
+            <th class="table-title" colspan="4">Event Schedule</th>
+        </tr>
+
+        <tr class="header-row">
+            <td>Time</td>
+            <td>Session</td>
+            <td>Speaker</td>
+            <td>Room</td>
+        </tr>
+
+        <tr>
+            <td>10:00 AM</td>
+            <td>Web Development Workshop</td>
+            <td>John Smith</td>
+            <td>Hall A</td>
+        </tr>
+
+    </table>
+
+
+    <h2>3. Create an Event Registration Form</h2>
+    <hr>
+
+    <div class="container">
+
+        <div class="left">
+            <p>Build a simple form for user registration.</p>
+        </div>
+
+        <div class="right">
+
+            <div class="form-box">
+
+                <h3>Register for the Event</h3>
+
+                <form>
+
+                    <div class="form-row">
+                        <label>Name:</label>
+                        <input type="text">
+                    </div>
+
+                    <div class="form-row">
+                        <label>Email:</label>
+                        <input type="email">
+                    </div>
+
+                    <div class="form-row">
+                        <label>Choose Ticket:</label>
+                        <select>
+                            <option>Standard</option>
+                            <option>VIP</option>
+                            <option>Student</option>
+                        </select>
+                    </div>
+
+                    <button type="submit">Submit</button>
+
+                </form>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
